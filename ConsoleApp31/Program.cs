@@ -19,17 +19,17 @@ namespace ConsoleApp31
                 if (x % 3 == 0)
                 {
                     Console.WriteLine("__0");
-
+                    break;
                 }
                 else if (x % 3 == 1)
                 {
                     Console.WriteLine("_^0");
-                    
+                    break;
                 }
                 else 
                 {
                     Console.WriteLine("^_0");
-               
+                    break;
                 }
 
                 Thread.Sleep(100);
